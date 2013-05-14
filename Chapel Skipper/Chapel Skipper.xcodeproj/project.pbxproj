@@ -101,6 +101,12 @@
 		AF4E7E1C1741DF0700DC8E8D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4E7E1B1741DF0700DC8E8D /* SystemConfiguration.framework */; };
 		AF4E7E1E1741DF0D00DC8E8D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4E7E1D1741DF0D00DC8E8D /* QuartzCore.framework */; };
 		AF4E7E201741DF1400DC8E8D /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4E7E1F1741DF1400DC8E8D /* libxml2.2.dylib */; };
+		AF4E7E231741E37700DC8E8D /* barbg.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4E7E211741E37700DC8E8D /* barbg.png */; };
+		AF4E7E241741E37700DC8E8D /* barbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4E7E221741E37700DC8E8D /* barbg@2x.png */; };
+		AF4E7E2E1741E55800DC8E8D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4E7E2D1741E55800DC8E8D /* icon.png */; };
+		AF4E7E321741E59700DC8E8D /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4E7E2F1741E59700DC8E8D /* icon-72.png */; };
+		AF4E7E331741E59700DC8E8D /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4E7E301741E59700DC8E8D /* icon-72@2x.png */; };
+		AF4E7E341741E59700DC8E8D /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4E7E311741E59700DC8E8D /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -218,6 +224,12 @@
 		AF4E7E1B1741DF0700DC8E8D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		AF4E7E1D1741DF0D00DC8E8D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		AF4E7E1F1741DF1400DC8E8D /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		AF4E7E211741E37700DC8E8D /* barbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbg.png; sourceTree = "<group>"; };
+		AF4E7E221741E37700DC8E8D /* barbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barbg@2x.png"; sourceTree = "<group>"; };
+		AF4E7E2D1741E55800DC8E8D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		AF4E7E2F1741E59700DC8E8D /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "../icon-72.png"; sourceTree = "<group>"; };
+		AF4E7E301741E59700DC8E8D /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72@2x.png"; path = "../icon-72@2x.png"; sourceTree = "<group>"; };
+		AF4E7E311741E59700DC8E8D /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,35 +296,35 @@
 				AF4E7E121741DE4500DC8E8D /* classes */,
 				AF4E7CDE1741DC2700DC8E8D /* AppDelegate.h */,
 				AF4E7CDF1741DC2700DC8E8D /* AppDelegate.m */,
-				AF4E7CEF1741DDE400DC8E8D /* HomeViewController_iPad.xib */,
-				AF4E7CF01741DDE400DC8E8D /* HomeViewController_iPhone.xib */,
-				AF4E7CF11741DDE400DC8E8D /* HomeViewController.h */,
-				AF4E7CF21741DDE400DC8E8D /* HomeViewController.m */,
-				AF4E7CF31741DDE400DC8E8D /* LoadViewController_iPad.xib */,
-				AF4E7CF41741DDE400DC8E8D /* LoadViewController_iPhone.xib */,
 				AF4E7CF51741DDE400DC8E8D /* LoadViewController.h */,
 				AF4E7CF61741DDE400DC8E8D /* LoadViewController.m */,
-				AF4E7CF71741DDE400DC8E8D /* LoginViewController_iPad.xib */,
-				AF4E7CF81741DDE400DC8E8D /* LoginViewController_iPhone.xib */,
+				AF4E7CF31741DDE400DC8E8D /* LoadViewController_iPad.xib */,
+				AF4E7CF41741DDE400DC8E8D /* LoadViewController_iPhone.xib */,
 				AF4E7CF91741DDE400DC8E8D /* LoginViewController.h */,
 				AF4E7CFA1741DDE400DC8E8D /* LoginViewController.m */,
-				AF4E7CFF1741DDE400DC8E8D /* QuoteViewController.h */,
-				AF4E7D001741DDE400DC8E8D /* QuoteViewController.m */,
-				AF4E7D011741DDE400DC8E8D /* QuoteViewController.xib */,
-				AF4E7D021741DDE400DC8E8D /* RootViewController_iPad.xib */,
-				AF4E7D031741DDE400DC8E8D /* RootViewController_iPhone.xib */,
+				AF4E7CF71741DDE400DC8E8D /* LoginViewController_iPad.xib */,
+				AF4E7CF81741DDE400DC8E8D /* LoginViewController_iPhone.xib */,
 				AF4E7D041741DDE400DC8E8D /* RootViewController.h */,
 				AF4E7D051741DDE400DC8E8D /* RootViewController.m */,
-				AF4E7D081741DDE400DC8E8D /* ScheduleCell.h */,
-				AF4E7D091741DDE400DC8E8D /* ScheduleCell.m */,
-				AF4E7D0A1741DDE400DC8E8D /* ScheduleCell.xib */,
+				AF4E7D021741DDE400DC8E8D /* RootViewController_iPad.xib */,
+				AF4E7D031741DDE400DC8E8D /* RootViewController_iPhone.xib */,
+				AF4E7CF11741DDE400DC8E8D /* HomeViewController.h */,
+				AF4E7CF21741DDE400DC8E8D /* HomeViewController.m */,
+				AF4E7CEF1741DDE400DC8E8D /* HomeViewController_iPad.xib */,
+				AF4E7CF01741DDE400DC8E8D /* HomeViewController_iPhone.xib */,
 				AF4E7D0B1741DDE400DC8E8D /* ScheduleViewController.h */,
 				AF4E7D0C1741DDE400DC8E8D /* ScheduleViewController.m */,
 				AF4E7D0D1741DDE400DC8E8D /* ScheduleViewController.xib */,
-				AF4E7D0E1741DDE400DC8E8D /* SettingsViewController_iPad.xib */,
-				AF4E7D0F1741DDE400DC8E8D /* SettingsViewController_iPhone.xib */,
+				AF4E7D081741DDE400DC8E8D /* ScheduleCell.h */,
+				AF4E7D091741DDE400DC8E8D /* ScheduleCell.m */,
+				AF4E7D0A1741DDE400DC8E8D /* ScheduleCell.xib */,
+				AF4E7CFF1741DDE400DC8E8D /* QuoteViewController.h */,
+				AF4E7D001741DDE400DC8E8D /* QuoteViewController.m */,
+				AF4E7D011741DDE400DC8E8D /* QuoteViewController.xib */,
 				AF4E7D101741DDE400DC8E8D /* SettingsViewController.h */,
 				AF4E7D111741DDE400DC8E8D /* SettingsViewController.m */,
+				AF4E7D0E1741DDE400DC8E8D /* SettingsViewController_iPad.xib */,
+				AF4E7D0F1741DDE400DC8E8D /* SettingsViewController_iPhone.xib */,
 				AF4E7CD61741DC2700DC8E8D /* Supporting Files */,
 			);
 			path = "Chapel Skipper";
@@ -325,6 +337,10 @@
 				AF4E7CD81741DC2700DC8E8D /* InfoPlist.strings */,
 				AF4E7CDB1741DC2700DC8E8D /* main.m */,
 				AF4E7CDD1741DC2700DC8E8D /* Chapel Skipper-Prefix.pch */,
+				AF4E7E2D1741E55800DC8E8D /* icon.png */,
+				AF4E7E311741E59700DC8E8D /* icon@2x.png */,
+				AF4E7E2F1741E59700DC8E8D /* icon-72.png */,
+				AF4E7E301741E59700DC8E8D /* icon-72@2x.png */,
 				AF4E7CE11741DC2700DC8E8D /* Default.png */,
 				AF4E7CE31741DC2700DC8E8D /* Default@2x.png */,
 				AF4E7CE51741DC2800DC8E8D /* Default-568h@2x.png */,
@@ -338,6 +354,8 @@
 				AF4E7D2B1741DE0700DC8E8D /* applyButtonBackground.png */,
 				AF4E7D2C1741DE0700DC8E8D /* Background.png */,
 				AF4E7D2D1741DE0700DC8E8D /* Background@2x.png */,
+				AF4E7E211741E37700DC8E8D /* barbg.png */,
+				AF4E7E221741E37700DC8E8D /* barbg@2x.png */,
 				AF4E7D2E1741DE0700DC8E8D /* calendar.png */,
 				AF4E7D2F1741DE0700DC8E8D /* calendar@2x.png */,
 				AF4E7D301741DE0700DC8E8D /* circle_arrow_down.png */,
@@ -574,6 +592,12 @@
 				AF4E7D891741DE0700DC8E8D /* twitter@2x.png in Resources */,
 				AF4E7D8C1741DE1600DC8E8D /* two-bells.mp3 in Resources */,
 				AF4E7E101741DE2200DC8E8D /* SVProgressHUD.bundle in Resources */,
+				AF4E7E231741E37700DC8E8D /* barbg.png in Resources */,
+				AF4E7E241741E37700DC8E8D /* barbg@2x.png in Resources */,
+				AF4E7E2E1741E55800DC8E8D /* icon.png in Resources */,
+				AF4E7E321741E59700DC8E8D /* icon-72.png in Resources */,
+				AF4E7E331741E59700DC8E8D /* icon-72@2x.png in Resources */,
+				AF4E7E341741E59700DC8E8D /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

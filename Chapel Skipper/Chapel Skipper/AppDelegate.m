@@ -17,6 +17,13 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
+    //Customize Navigation Bars
+    [[UINavigationBar appearance] setBackgroundImage:[[UIImage imageNamed:@"barbg.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 10, 0, 10)] forBarMetrics:UIBarMetricsDefault];
+    
+    [[UINavigationBar appearance] setTitleTextAttributes:
+     [NSDictionary dictionaryWithObjectsAndKeys:
+      [UIFont fontWithName:@"Avenir-Heavy" size:20.0], UITextAttributeFont, nil]];
+    
     LoginViewController *login;
     
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
@@ -31,9 +38,7 @@
     [_revealSideViewController setPanInteractionsWhenClosed:PPRevealSideInteractionNavigationBar]; //PPRevealSideInteractionContentView default
     
     self.window.rootViewController = self.revealSideViewController;
-
     
-    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
 }
